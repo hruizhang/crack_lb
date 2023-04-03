@@ -11,8 +11,8 @@ log_intermediate = False
 
 num_of_threads = 20
 error_result = "UNKNOWN"
-start = 3000
-end = 3500
+start = 0
+end = 10_000
 
 def make_request(token, surface_id, feed_mode, begin_date, code):
     headers = {'Authorization': 'Bearer ' + token}
